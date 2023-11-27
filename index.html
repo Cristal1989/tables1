@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <table>
+      <caption>
+        descriptiion
+      </caption>
+      <tr>
+        <th class="param">First name</th>
+        <th class="param">Last name</th>
+        <th class="param">Age</th>
+        <th class="param">Profile</th>
+      </tr>
+      <tr>
+        <td class="user__info">Vasya</td>
+        <td class="user__info">Vasechkin</td>
+        <td class="user__info">31</td>
+        <td class="user__info"><a href="#">Link</a></td>
+      </tr>
+      <tr>
+        <td class="user__info">Alex</td>
+        <td class="user__info">Serov</td>
+        <td class="user__info">32</td>
+        <td class="user__info"><a href="#">Link</a></td>
+      </tr>
+      <tr>
+        <td class="user__info">Misha</td>
+        <td class="user__info">Vasin</td>
+        <td class="user__info">35</td>
+        <td class="user__info"><a href="#">Link</a></td>
+      </tr>
+      <tr>
+        <td class="user__info" respown="2">Petro</td>
+        <td class="user__info">Petrov</td>
+        <td class="user__info">30</td>
+        <td class="user__info"><a href="#">Link</a></td>
+      </tr>
+
+      <!-- colspan Соединение ячеек на ширину количества ячеек или блоков например "3" -->
+      <tr>
+        <td class="colspan" colspan="4">asd</td>
+      </tr>
+
+      <tr class="rowspan">
+        <th class="rowspan">name</th>
+        <td class="rowspan">vasya</td>
+      </tr>
+      <tr>
+        <!-- rowspan Расширяет таблицу вниз на количество указаных ячеек -->
+        <th class="rowspan" rowspan="2">Phone</th>
+        <td class="rowspan">56561515</td>
+        <tr class="rowspan">
+          <td class="rowspan">56561515</td>
+        </tr>
+      </tr>
+    </table>
+    <!-- iframe Вставка стороннего ресурса например ролик ютуб, плеер, окна всплывающие, сайт -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/tv_6WCd5usM?si=8xWx4ldZW0NFVj8f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <video src=""></video>
+  </body>
+</html>

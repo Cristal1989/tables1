@@ -1,0 +1,32 @@
+* table {
+  width: 100%;
+}
+
+* table,
+th,
+td {
+  color: #ffffff;
+  border: 1px solid rgb(12, 209, 183);
+  list-style: none;
+  border-spacing: 2px;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: yellow;
+
+}
+
+
+
+.user__info,
+.colspan,
+.param,
+.rowspan {
+  color: #000;
+}
